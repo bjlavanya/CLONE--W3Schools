@@ -1,0 +1,870 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+html,body{
+    width: 100%;
+    overflow-x: auto;
+}
+
+.navbar1{
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    background-color: white;
+    top:0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+    z-index: 9999;
+} 
+
+a{
+    text-decoration: none;
+}
+
+select{
+    border: none;
+    background-color: white;
+}
+
+.icon{
+    color: rgb(190, 125, 190);
+}
+
+.searchbar{
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+button{
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+}
+
+.signup{
+    background-color: mediumseagreen;
+    color: white;
+    cursor: pointer;
+}
+
+.login{
+    background-color: grey;
+    opacity: 0.8;
+    color: black;
+    cursor: pointer;
+}
+
+.nav{
+    width: 100%;
+    background-color: #282a35;
+    color: white;
+    overflow: hidden;
+    position: fixed;
+    top: 53px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.section{
+    margin-top: 90px;
+    background-color: #282a35;
+    height: 600px;
+}
+
+.sub-section{
+    margin-top: 70px;
+    padding: 15px; 
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.image{
+    margin-left: 78%;
+    width: 200px;
+}
+
+.heading{
+    margin-top: 95px;
+    margin-left: 480px;
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.subhead{
+    margin-top: 20px;
+    margin-left: 500px;
+    font-size: 24px;
+    color: rgb(173, 173, 75);
+    /* font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.search{
+    margin-top: -90px;
+    margin-left: 460px;
+    padding: 15px; 
+    display: flex;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.searchpath{
+    background-color: white;
+    padding: 15px;
+    width: 60vh;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.searchicon2{
+    background-color: mediumseagreen;
+    width: 15vh;
+    padding: 15px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-align: center;
+}
+
+.lastpara{
+    margin-top: 30px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all;
+}
+
+.lastpara:hover{
+    color: rgb(231, 231, 198);
+}
+
+
+.htmlsection{
+    display: flex;
+    height: 600px;
+    background-color: rgb(217, 238, 225);
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.htmlcontent1{
+    margin-top: 50px;
+    margin-left: 250px;
+    line-height: 1.9;
+}
+
+h1{
+    margin-left: 80px;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.htmlpara{
+     font-size: 1.5rem;
+}
+
+.htmlbtn1{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 200px;
+    background-color: mediumseagreen;
+    padding: 10px;
+    border-radius: 1.5rem;
+    text-align: center;
+    color: white;
+    transition: all;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.htmlbtn1:hover{ background-color: mediumseagreen; opacity: 1.0; }
+.htmlbtn2:hover{ background-color: rgb(196, 196, 130); opacity: 1.0; }
+.htmlbtn3:hover{ background-color: rgba(0, 0, 0, 0.881); opacity: 1.0; }
+.htmlbtn4:hover{ background-color: rgb(223, 129, 145); opacity: 1.0; }
+
+
+.htmlbtn2{
+    background-color: rgb(196, 196, 130);
+    color: black;
+    transition: all;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.htmlbtn3{
+    background-color: rgba(0, 0, 0, 0.881);
+    color: white;
+    transition: all;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.htmlbtn4{
+    background-color: rgb(223, 129, 145);
+    color: black;
+    transition: all;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.htmlcontent2{
+    margin-top: 10vh ;
+    line-height: 1.9;
+    margin-left: 200px;
+    background-color: #e7e9eb;
+    box-shadow: 0px 0px 5px grey;
+    height: 60vh;
+    width: 50vh;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.tagimg{
+    margin-top: 10px;
+    border-left: 5px solid mediumseagreen;
+}
+
+.trybtn{
+    margin-top: 10px;
+    padding: 10px;
+    width: 25vh;
+    background-color: mediumseagreen;
+    color: white;
+    font-weight: bold;
+    transition: all;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.trybtn:hover{ background-color: mediumseagreen;opacity: 1.0; }
+
+.csssection{
+    background-color: #fff4a3;
+}
+
+.csshead{
+    margin-left: 120px;
+}
+
+.csspara{
+    font-size: 1.5rem;
+}
+
+.cssbtn1{
+   background-color: mediumseagreen;
+   color: white;
+   transition: all;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.cssbtn3{
+   background-color: rgba(0, 0, 0, 0.881);
+   color: white;
+   transition: all;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.cssbtn4{
+   background-color: rgb(223, 129, 145);
+   color: black;
+   transition: all;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.cssbtn1:hover{ background-color: mediumseagreen; opacity: 1.0; }
+.cssbtn3:hover{ background-color: rgba(0, 0, 0, 0.881); opacity: 1.0; }
+.cssbtn4:hover{ background-color: rgb(223, 129, 145); opacity: 1.0; }
+ 
+.csscontent2{ margin-left: 220px; }
+
+.jssection{
+    background-color: #282a35;
+}
+
+.jscontent1{
+    margin-top: 50px;
+    margin-left: 170px;
+    line-height: 1.9;
+}
+
+.jshead{
+    margin-left: 50px;
+    color: white;
+} 
+
+.jspara{
+    font-size: 1.5rem;
+    margin-left: 30px;
+    color: white;
+}
+
+.jsbtn1{
+   margin-top: 20px;
+   margin-left: 170px;
+   width: 200px;
+   background-color: mediumseagreen;
+   padding: 10px;
+   border-radius: 1.5rem;
+   text-align: center;
+   color: white;
+   transition: all;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.jsbtn2{
+   margin-top: 20px;
+   margin-left: 170px;
+   width: 200px; 
+   background-color: #d9eee1;
+   padding: 10px;
+   border-radius: 1.5rem;
+   text-align: center;
+   color: black;
+   transition: all;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.jsbtn4{
+   margin-top: 20px;
+   margin-left: 170px;
+   width: 200px;
+   background-color: rgb(223, 129, 145);
+   padding: 10px;
+   border-radius: 1.5rem;
+   text-align: center;
+   color: black;
+   transition: all;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.jsbtn1:hover{ background-color: mediumseagreen; opacity: 1.0; }
+.jsbtn2:hover{ background-color: #d9eee1; opacity: 1.0; }
+.jsbtn4:hover{ background-color: rgb(223, 129, 145); opacity: 1.0; }
+
+.jscontent2{
+    margin-top: 10vh ;
+    margin-left: 180px;
+    line-height: 1.9;
+    background-color: #e7e9eb;
+    box-shadow: 0px 0px 5px grey;
+    height: 60vh;
+    width: 50vh;
+    padding: 20px;
+    border-radius: 7px;
+ }
+
+ .pysection{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-color: #f3ecea;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pyhead{
+    margin-left: 60px;
+}
+
+.pypara{
+    font-size: 1.5rem;
+}
+
+.pybtn1{
+   background-color: mediumseagreen;
+   color: white;
+   transition: all;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.pybtn3{
+   background-color: rgba(0, 0, 0, 0.881);
+   color: white;
+   transition: all;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.pybtn4{
+   background-color: rgb(223, 129, 145);
+   color: black;
+   transition: all;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.pybtn1:hover{ background-color: mediumseagreen; opacity: 1.0; }
+.pybtn3:hover{ background-color: rgba(0, 0, 0, 0.881); opacity: 1.0; }
+.pybtn4:hover{ background-color: rgb(223, 129, 145); opacity: 1.0; }
+
+.pycontent2{
+   margin-top: 10vh ;
+   margin-left: 235px;
+   line-height: 1.9;
+   background-color: #e7e9eb;
+   box-shadow: 0px 0px 5px grey;
+   height: 60vh;
+   width: 50vh;
+   padding: 20px;
+   border-radius: 7px;
+} 
+
+.sqlsection{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-color: #96d4d4;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sqlcontent1{
+    margin-top: 50px;
+    margin-left: 250px;
+    line-height: 1.9;
+}
+
+.sqlhead{
+    margin-left: 130px;
+}
+
+.sqlpara{
+    font-size: 1.5rem;
+}
+
+.sqlbtn1{
+   background-color: mediumseagreen;
+   color: white;
+   transition: all;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.sqlbtn3{
+   background-color: rgba(0, 0, 0, 0.881);
+   color: white;
+   transition: all;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.sqlbtn4{
+   background-color: rgb(223, 129, 145);
+   color: black;
+   transition: all;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.sqlbtn1:hover{ background-color: mediumseagreen; opacity: 1.0; }
+.sqlbtn3:hover{ background-color: rgba(0, 0, 0, 0.881); opacity: 1.0; }
+.sqlbtn4:hover{ background-color: rgb(223, 129, 145); opacity: 1.0; }
+
+.sqlcontent2{
+   margin-top: 10vh ;
+   margin-left: 210px;
+   line-height: 1.9;
+   background-color: #e7e9eb;
+   box-shadow: 0px 0px 5px grey;
+   height: 60vh;
+   width: 50vh;
+   padding: 20px;
+   border-radius: 7px;
+} 
+
+.divlang{
+    background-color:  #282a35;
+    height: 4300px;
+}
+
+.php-jquery{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.php{
+    background-color: #ffc0c7;
+    width: 600px;
+    height: 300px;
+    position: relative;
+    top: 100px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.phphead{
+    margin-left: 30vh;
+    margin-top: 30px;
+    font-size: 4rem;
+}
+
+.phppara{
+    font-size: 1.3rem;
+    margin-left: 13vh;
+    margin-top: 30px;
+}
+
+.phpbtn{
+    margin-left: 22vh;
+    margin-top: 30px;
+    padding: 15px;
+    width: 250px;
+    background-color: #282a35;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.jquery{
+    background-color: #fff4a3;
+}
+
+.jhead{
+    margin-left: 25vh;
+    margin-top: 30px;
+    font-size: 4rem;
+}
+
+.jpara{
+    font-size: 1.3rem;
+    margin-left: 13vh;
+    margin-top: 30px;
+}
+
+.java-cplus{
+    position: relative;
+    top: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.java{
+    background-color: #f3ecea;
+}
+
+.javahead{
+    margin-left: 30vh;
+    margin-top: 30px;
+    font-size: 4rem;
+}
+
+.javapara{
+    font-size: 1.3rem;
+    margin-left: 21vh;
+    margin-top: 30px;
+}
+
+.cplus{
+    background-color: #d9eee1;
+}
+
+.cplushead{
+    margin-left: 30vh;
+    margin-top: 40px;
+    font-size: 4rem;
+}
+
+.cpluspara{
+    font-size: 1.3rem;
+    margin-left: 21vh;
+    margin-top: 30px;
+}
+
+.w3-boot{
+    position: relative;
+    top: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.w3{
+    background-color: #96d4d4;
+}
+
+.w3head{
+    margin-left: 23vh;
+    margin-top: 30px;
+    font-size: 4rem;
+}
+
+.w3para{
+    font-size: 1.3rem;
+    margin-left: 10vh;
+    margin-top: 30px;
+}
+
+.boot{
+    background-color: #e7e9eb;
+}
+
+.boothead{
+    margin-left: 20vh;
+    margin-top: 40px;
+    font-size: 4rem;
+}
+
+.bootpara{
+    font-size: 1.3rem;
+    margin-left: 10vh;
+    margin-top: 30px;
+}
+
+.fourbox{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.r{
+    background-color: #f3ecea;
+    width: 250px;
+    height: 100px;
+    position: relative;
+    top: 50vh;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #000;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.json{
+    top: 60vh;
+    background-color: #FFF4A3;
+}
+
+.sass{ top:70vh; background-color: #ffc0c7; }
+
+.kotlin,.mysql,.graphics{
+    background-color: #d9eee1;
+}
+
+.nodejs,.xml{
+    background-color: #96d4d4;
+}
+
+.react{
+    background-color: #ffc0c7;
+}
+
+.paralang{
+    margin-top: 6vh;
+}
+
+.vue,.rwd{ background-color: #f3ecea; }
+
+.icons{ background-color: #FFF4A3; }
+
+.twobox{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.excel{
+    background-color: #96D4D4;
+    width: 590px;
+    height: 100px;
+    position: relative;
+    top: 80vh;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #000;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.google{ background-color: #fff4a3; }
+
+.ml{ top: 90vh; background-color: #ffc0c7; }
+
+.ai{ background-color: #f3ecea;; }
+
+.main-codeeditor{ 
+    width: 90%;
+    height: 100vh;
+    position: relative;
+    top: 100vh;
+    left: 50px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #000;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+.code-head,.code-para{
+    margin-bottom: 25px;
+    color: white;
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.code-para{ font-size: 1rem; }
+
+.code-img{
+    margin: 25px ;  
+}
+
+.editor-div{
+    height: 450px;
+    width: 1000px;
+    background-color: #f1f1f1;
+    margin-left: 200px;
+    border-radius: 15px;
+    padding-top: 20px ;
+}
+
+.icon-circle{ float: left;  margin-left: 15px; }
+
+.color-red{ color: red; }
+.color-yellow{ color: rgb(213, 213, 100); }
+.color-green{ color: rgb(87, 215, 87); }
+
+.div1{ background-color: #fff;  margin-left: 250px;  width: 500px; font-size: 1rem; padding: 6px; color: grey; text-align: left; border-radius: 10px; }
+
+.nav-code{ display: flex; margin-top: 20px; margin-left: 20px;  }
+
+.code-anchor{  padding: 10px; color: black; font-size: 1.2rem; }
+.code-anchor2{  padding: 10px; color: black; font-size: 1.2rem; }
+
+.nav-code a:hover{ background-color: #E7E9EB;  }
+
+
+.navlist{
+    display: flex;
+    list-style-type: none;
+}
+
+section{
+    display: none;
+    margin-left: -16px;
+}
+
+:target{ display: block; }
+
+.btndiv{ margin-top: 70px; display: flex; flex-direction: column;  }
+.frontbtn{ width:300px; border-radius: none; font-size: 1rem; background-color: mediumseagreen; color: white; padding: 10px; text-align: left; border-radius:10px ; cursor: pointer;}
+.backbtn{ width:400px; margin-top: 20px; border-radius: none; font-size: 1rem; background-color: #fff4a3; color: black; padding: 10px; text-align: left; border-radius:10px ; cursor: pointer;}
+
+.space{ margin-top: 40px; margin-left: 70px;}
+
+.work-div{ margin-top: 130px; }
+
+.works-para{ font-size: 2rem; color: white; }
+
+.div-paras{ display: flex; justify-content: space-around; width: 1100px; margin-left: -60px; margin-top: 30px; }
+
+.para{ font-size: 1rem; color: white; }
+
+.learn-more{ padding: 15px; width: 300px; margin-top: 80px; background-color: mediumseagreen; color: white; font-weight: bold; font-size: 1.2rem; cursor: pointer;}
+
+.learning{
+    height: 1000px;
+    background-color: #d9eee1;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.learn-head{
+   padding: 50px;
+   font-size: 4rem;
+}
+
+.learn-para{ font-size: 1.3rem; font-weight: bold; padding: 8px; }
+
+.learn-div{ width: 1050px; background-color: white; height: 300px; margin-left: 270px; margin-top:130px ; border-radius: 20px;  }
+.learn-div2{ width: 500px; background-color: white; height: 200px; padding: 10px; border-top-left-radius: 20px ; }
+.learn-head2{ margin-left: -370px; padding: 20px; font-size: 1.5rem;}
+.learn-para2{ font-size: 1rem; color: rgb(121, 118, 118); text-align: left; padding: 15px; }
+.div-button{ display: flex; padding: 15px; font-family: "Source Sans Pro", sans-serif;}
+.learn-cplus{ width: 200px; margin-right: 30px; background-color: #282a35; color: white; font-weight: 600; font-size: 1rem; }
+.browse-btn{ background-color: white; color: #282a35; width: 200px; font-weight: 600; font-size: 1rem; cursor: pointer;}
+
+.learn-div3{
+    margin-top: -300px;
+    margin-left: 550px;
+    background-color: white;
+    width: 390px;
+    height: 450px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.learn-para3{ font-size: 1rem; font-weight: 700; color: #282a35; padding-bottom: 20px;}
+.learn-para4{ color: gray; }
+.learn-score{ text-align: left;padding: 10px; color: gray; }
+.score-div1{
+    display: flex; justify-content: space-between; padding: 10px;
+}
+.score-div2{
+    display: flex; justify-content: space-between; padding: 20px;
+}
+.score{ border: 1px solid gray; padding: 10px; border-radius: 10px; opacity: 0.7; }
+.score1{ width: 120px;  text-align: left; border-right: 10px solid gray; }
+.score2{ width: 120px;  text-align: left; }
+.score3{ width: 120px; margin-left: -10px; text-align: left; border-right: 10px solid mediumseagreen; }
+.score4{ width: 120px; margin-left: 80px; text-align: left; border-right: 10px solid rgb(253, 253, 69);}
+.score-head{ font-weight: 800; }
+
+.plus-user{ height: 650px; background-color: #282a35; }
+.plus-user h1{ color: #fff; font-size: 60px; text-align: center; padding-top: 40px;}
+.plus-user h6{ color: #ffc0c7; font-size: 25px ; margin-left: 600px; padding-top: 30px;}
+.plus-user p{ color: #fff;margin-left: 640px; padding-top: 30px; font-weight: bold;}
+.plus-user i{ padding-right: 20px; color: #E7E9EB;}
+.plus-user button{ margin-left: 620px;cursor: pointer;}
+
+.template{ height:700px; background-color: #e7e9eb;}
+.template h1{ color: #282a35; font-size: 60px; text-align: center; padding-top: 40px; }
+.template h6{ color: #282a35; font-size: 16px ;  margin-left: 580px; padding-top: 30px; }
+.template img{ margin-left: 330px; padding-top: 30px;}
+.template button{ margin-left: 390px; background-color: #282a35 ; margin-top: auto; width: 800px; cursor: pointer;}
+
+footer{ background-color: #282a35; height: 700px;}
+.foot-div ul{ display: flex; color: #FFF4A3; justify-content: space-around; padding-top: 40px; align-items: center;}
+.foot-div ul li{ list-style-type: none; font-size: 14px; text-transform: uppercase; font-weight: 500;}
+.foot-div2{ display: flex; justify-content: space-around; align-items: center; padding-top: 20px; color: #fff;}
+.foot-div2 h5{ font-size: 22px; font-weight: bold; padding-bottom: 20px;}
+.foot-div2 ul li{ list-style-type: none; text-align: center; line-height: 1.4; font-size: 15px; text-transform: capitalize;}
+.foot-div4 p{ text-align: center; word-spacing: 10px;  color: #fff; font-weight: 700;}
+.foot-div3{ padding-top: 80px;}
+.foot-div3 .div-p{ padding-top: 20px;}
+.foot-div3 .div-p p{ text-align: center; color: #fff; line-height: 1.5; font-weight: 600;}
+.foot-div3 .copy{ text-align: center; color: #fff; font-weight: 600; padding-top: 30px;}
+.foot-div3 p i{ cursor:pointer}
